@@ -1,9 +1,20 @@
 .mobile {
     background-image: url("/instagram/assets/moviles.png");
+    background-position: -46px 0;
+    background-size: 468.32px 634.15px;
+    -webkit-flex-basis: 380.32px;
+    -ms-flex-preferred-size: 380.32px;
+    flex-basis: 380.32px;
+    height: 581.15px;
+    margin-bottom: 12px;
+    margin-right: 32px;
 }
 
 .mobile img {
     height: 538.84px;
+    left: 444px;
+    position: absolute;
+    top: 66px;
     width: 250px;
 }
 
@@ -26,6 +37,8 @@ body {
 main {
     display: flex;
     justify-content: center;
+    width: 100%;
+    margin: 32px auto 0;
 }
 
 .form {
@@ -37,6 +50,12 @@ main {
 .formaction {
     display: flex;
     flex-direction: column;
+}
+
+.formig {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .facebook {
@@ -64,3 +83,28 @@ main {
     display: flex;
     justify-content: center;
 }
+
+
+/* bordes */
+
+.formig,
+.login {
+    border: 1px solid grey;
+}
+
+
+/* formato del formulario */
+
+.formig img {
+    margin-top: 36px;
+    margin-bottom: 12px;
+}
+
+.input {
+    background: rgba( 250, 250, 250);
+    padding: 9px 0 7px 8px;
+    font-size: 16px;
+}
+
+
+/* seccion movil */
