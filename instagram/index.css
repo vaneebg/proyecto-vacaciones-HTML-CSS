@@ -2,8 +2,65 @@
     background-image: url("/instagram/assets/moviles.png");
 }
 
-
-/* .mobile img {
+.mobile img {
     height: 538.84px;
     width: 250px;
-} */
+}
+
+.facebook a img {
+    height: 1em;
+}
+
+.downloadicons img {
+    height: 40px;
+}
+
+
+/* modelos flex box */
+
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.formaction {
+    display: flex;
+    flex-direction: column;
+}
+
+.facebook {
+    display: flex;
+    flex-direction: column;
+}
+
+.download {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.downloadicons {
+    display: flex;
+}
+
+.links {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.copyright {
+    display: flex;
+    justify-content: center;
+}
