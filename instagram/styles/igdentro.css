@@ -1,25 +1,31 @@
-* {
-    border: 1px solid black;
-}
-
-
 /* modelos flex box */
 
 header {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    width: 100%;
+}
+
+.main {
+    display: flex;
+    justify-content: center;
 }
 
 main {
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content: center;
+    width: 50%;
 }
 
 .stories {
     display: flex;
     align-items: flex-start;
+    border: 1px solid grey;
+    width: 100%;
+    overflow: scroll;
 }
 
 .content {
@@ -56,11 +62,82 @@ main {
 .twobefore {
     display: flex;
     align-items: center;
+    gap: 10px;
 }
 
 .nav {
     display: flex;
     flex-direction: row;
-    background-color: green;
-    justify-content: space-between;
+    justify-content: space-around;
+    align-items: center;
+}
+
+
+/* navegación inferior */
+
+.nav img {
+    height: 1.8em;
+    width: 1.4em;
+}
+
+.nav {
+    position: sticky;
+    bottom: 0;
+    background-color: white;
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
+}
+
+.sticky {
+    display: flex;
+    flex: row;
+}
+
+
+/* navegacion superior */
+
+header img {
+    height: 2em;
+}
+
+.ig {
+    height: 2em;
+}
+
+.igname {
+    height: 1.8em;
+}
+
+.sticky {
+    position: sticky;
+    top: 0;
+    background-color: white;
+}
+
+
+/* sección main */
+
+.publi {
+    width: 600px;
+    height: 750px;
+}
+
+.left img {
+    height: 3em;
+}
+
+.descrip a {
+    all: unset;
+    font-weight: 900;
+    margin: 0;
+}
+
+.descrip p {
+    color: grey;
+    font-size: 0.8em;
+    margin-top: 0.5em;
+}
+
+main {
+    width: 50%;
 }
