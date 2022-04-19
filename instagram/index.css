@@ -65,7 +65,7 @@
   
   .formig {
       width: 350px;
-      height: 420px;
+      height: 400px;
       border: 1px solid rgb(201, 192, 192);
       background-color: white;
   }
@@ -85,6 +85,7 @@
       margin-top: 7px;
       height: 1.7em;
       border-radius: 3px;
+      font-weight: 300;
   }
   
   .formaction button {
@@ -153,6 +154,7 @@
   
   .downloadapp {
       margin-bottom: 10px;
+      font-weight: 400;
   }
   
   .facebook a img {
@@ -196,6 +198,7 @@
   .links a {
       padding: 10px;
       font-size: 0.7em;
+      font-weight: 400;
   }
   
   footer a {
@@ -207,10 +210,18 @@
       all: unset;
       width: 9em;
       font-size: 13px;
+      font-weight: 300;
   }
   
   .copy {
       font-size: 12px;
+      font-weight: 300;
+  }
+  /* botones */
+  
+  button:hover,
+  a:hover {
+      cursor: pointer;
   }
   /* animaciones */
   
