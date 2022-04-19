@@ -23,13 +23,23 @@ main {
 .stories {
     display: flex;
     align-items: flex-start;
-    border: 1px solid grey;
+    border: 1px solid rgb(224, 219, 219);
+    border-radius: 3px;
     width: 100%;
     overflow: scroll;
+    padding-top: 14px;
+}
+
+::-webkit-scrollbar {
+    display: none;
 }
 
 .content {
     display: flex;
+    border: 1px solid rgb(224, 219, 219);
+    border-radius: 3px;
+    margin-top: 2em;
+    width: 100%;
 }
 
 .titlecontent {
@@ -42,6 +52,7 @@ main {
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
+    padding-top: 1em;
 }
 
 .descrip {
@@ -70,6 +81,27 @@ main {
     flex-direction: row;
     justify-content: space-around;
     align-items: center;
+}
+
+.text {
+    display: flex;
+    align-items: baseline;
+}
+
+.text a {
+    all: unset;
+    margin-right: 5px;
+    font-weight: 900;
+}
+
+textarea {
+    all: unset;
+}
+
+.comment {
+    display: flex;
+    flex-direction: row;
+    align-items: baseline;
 }
 
 
@@ -118,7 +150,7 @@ header img {
 /* sección main */
 
 .publi {
-    width: 600px;
+    width: 670px;
     height: 750px;
 }
 
@@ -140,4 +172,14 @@ header img {
 
 main {
     width: 50%;
+}
+
+.comment a,
+.comment button {
+    all: unset;
+}
+
+.comment a {
+    color: rgb(0, 174, 255);
+    font-weight: 900;
 }
