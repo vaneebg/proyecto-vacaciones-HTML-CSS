@@ -84,7 +84,7 @@
       border-radius: 3px;
   }
   
-  .submit {
+  .formaction button {
       all: unset;
       text-align: center;
       margin-top: 10px;
@@ -96,9 +96,12 @@
       height: 1.8em;
   }
   
+  .formaction button a {
+      all: unset;
+  }
+  
   .separation img {
-      margin-top: -40px;
-      margin-bottom: -20px;
+      padding: 3px;
       width: 19em;
   }
   
