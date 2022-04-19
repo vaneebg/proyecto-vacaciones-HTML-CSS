@@ -1,0 +1,66 @@
+* {
+    border: 1px solid black;
+}
+
+
+/* modelos flex box */
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.stories {
+    display: flex;
+    align-items: flex-start;
+}
+
+.content {
+    display: flex;
+}
+
+.titlecontent {
+    display: flex;
+    flex-direction: column;
+}
+
+.titleaccount {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.descrip {
+    display: flex;
+    flex-direction: column;
+}
+
+.left {
+    display: flex;
+    gap: 13px;
+}
+
+.afterpubli {
+    display: flex;
+    justify-content: space-between;
+}
+
+.twobefore {
+    display: flex;
+    align-items: center;
+}
+
+.nav {
+    display: flex;
+    flex-direction: row;
+    background-color: green;
+    justify-content: space-between;
+}
