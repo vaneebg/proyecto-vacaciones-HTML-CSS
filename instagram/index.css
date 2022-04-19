@@ -1,3 +1,6 @@
+  /* fonts */
+  
+  @import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@100;300;700&display=swap');
   /* modelos flex box */
   
   body {
@@ -111,11 +114,14 @@
   
   .face1 {
       font-weight: 900;
+      font-size: 13px;
   }
   
   .face2 {
       font-size: 13px;
+      font-weight: 300;
       text-align: center;
+      color: #385185;
   }
   
   .facebook a {
@@ -131,6 +137,7 @@
       border: 1px solid rgb(201, 192, 192);
       background-color: white;
       font-size: 14px;
+      font-weight: 300;
   }
   
   .login a {
@@ -151,6 +158,7 @@
   .facebook a img {
       height: 1em;
       padding: 0;
+      padding-right: 10px;
   }
   
   .downloadicons img {
