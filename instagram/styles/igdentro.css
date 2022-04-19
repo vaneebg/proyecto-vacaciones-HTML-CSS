@@ -184,3 +184,11 @@ main {
     color: rgb(0, 174, 255);
     font-weight: 900;
 }
+
+
+/* botones */
+
+a:hover,
+button:hover {
+    cursor: pointer;
+}
