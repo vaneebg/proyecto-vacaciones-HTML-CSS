@@ -18,7 +18,8 @@ Tendremos dos carpetas diferentes. Una para instagram y otra para twitter. Dentr
 
 En lo referente a las 2 páginas que tiene cada red social:
 - **Index** : Página inicial de ambas redes. Consta a mano izquierda de algún tipo de maquetación estética y a mano derecha un mini formulario para iniciar sesión. 
-    - **_IG_**: La parte izq consta de una animación cambiando opacidad y visibilidad de cada una de las 4 fotos. Con la finalidad de corregir el problema de que al finalizar la animación completa el móvil se quede en negro, se ha cambiado el estado final de la animación de la foto 1, haciendo que vuelva a su estado inicial (opacidad 1), y así se quede permanente. Modificando los tiempos de inicio del resto de fotos, se consigue que la img1 pase desapercibida hasta el final de la animación pese a que está visible.
+    - **_IG_**: La parte izq consta de una animación cambiando opacidad y visibilidad de cada una de las 4 fotos. Con la finalidad de corregir el problema de que al finalizar la animación completa el móvil se quede en negro, se ha cambiado el estado final de la animación de la foto 1, haciendo que vuelva a su estado inicial (opacidad 1), y así se quede permanente. Modificando los tiempos de inicio del resto de fotos, se consigue que la img1 pase desapercibida hasta el final de la animación pese a que está visible. La parte derecha es un sencillo formulario con un input text y password. Debajo hay enlaces tanto para iniciar sesión con facebook como para descargar la app en Apple Google Play.
+    En el footer encontramos enlaces de varias índoles y un datalist del lenguaje a elegir.
 - **Ig dentro/twitter dentro** : Formada por las publicaciones, varios botones para redigirir a las diferentes cuentas, opciones, etc.
     - **_IG_**: En **la barra superior** se encuentran tres enlaces, los de las esquinas deben redirigir a la app de fotos y de mensajes directos (no implementadas), mientras que el título de Instagram te dirige de nuevo a la página de index. 
     Después encontramos otra **barra con las stories**, que posee un scroll que no se muestra para que solamente con el desplazamiento táctil hacia la derecha vayas explorando. La segunda storie es un enlace de prueba que te llevaría al perfil de esa persona en concreto. El resto son imágenes sin funcionalidad.
@@ -54,7 +55,7 @@ Para desplegar este proyecto, lo primero que debes hacer es clonarte el reposito
 
 ## Aplicaciones posteriores ####
 Adaptar el diseño responsive.
-Añadir más funcionalidad con javascript.
+Añadir más funcionalidad con javascript, por ejemplo el carrusel de imágenes del index.
 
 ## Autor ##
 Este proyecto fue desarrollado por [Vanesa Beltrán Guillén](https://github.com/vaneebg)
