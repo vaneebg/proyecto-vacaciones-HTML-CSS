@@ -1,7 +1,43 @@
+/* fonts */
+
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@100;300;700&display=swap');
 * {
     border: 1px solid black;
 }
 
+body {
+    font-family: 'Noto Sans', sans-serif;
+}
+
+
+/* modelos flex box */
+
 main {
     display: flex;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    padding: 2em;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+}
+
+
+/* titulos */
+
+h1 {
+    overflow-wrap: break-word;
+    font-size: 4em;
+    font-weight: 900;
+}
+
+h2 {
+    margin: 0;
+    font-size: 2em;
 }
