@@ -182,6 +182,7 @@
   }
   
   .mobile img {
+      display: flex;
       height: 538.84px;
       left: 406px;
       position: absolute;
@@ -228,8 +229,8 @@
   .img1 {
       opacity: 1;
       animation-name: photo1;
-      animation-fill-mode: both;
-      animation-duration: 4s;
+      animation-fill-mode: backwards;
+      animation-duration: 5s;
       animation-delay: 3s;
   }
   
@@ -237,9 +238,9 @@
       opacity: 0;
       visibility: hidden;
       animation-name: photos;
-      animation-delay: 5s;
+      animation-delay: 4s;
       animation-fill-mode: both;
-      animation-duration: 4s;
+      animation-duration: 7s;
       animation-timing-function: ease-in-out;
   }
   
@@ -247,8 +248,8 @@
       opacity: 0;
       animation-name: photos;
       visibility: hidden;
-      animation-delay: 9s;
-      animation-duration: 4s;
+      animation-delay: 7s;
+      animation-duration: 7s;
       animation-fill-mode: both;
       animation-timing-function: ease-in-out;
   }
@@ -258,8 +259,8 @@
       animation-name: photos;
       visibility: hidden;
       animation-fill-mode: both;
-      animation-duration: 4s;
-      animation-delay: 13s;
+      animation-duration: 7s;
+      animation-delay: 11s;
       animation-timing-function: ease-in-out;
   }
   
