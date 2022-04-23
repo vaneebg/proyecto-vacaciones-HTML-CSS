@@ -1,16 +1,18 @@
 /* fonts */
 
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@100;300;700&display=swap');
-* {
-    border: 1px solid black;
-}
-
 body {
     font-family: 'Noto Sans', sans-serif;
 }
 
-a:hover {
+body a:hover {
     cursor: pointer;
+}
+
+.image img {
+    height: 49em;
+    width: 34em;
+    margin: 0;
 }
 
 
@@ -32,6 +34,17 @@ main {
     flex-direction: column;
 }
 
+.sesion {
+    display: flex;
+}
+
+.links {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: baseline;
+}
+
 
 /* titulos */
 
@@ -44,6 +57,7 @@ h1 {
 h2 {
     margin: 0;
     font-size: 2em;
+    margin-bottom: 1em;
 }
 
 
@@ -57,12 +71,12 @@ h2 {
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    border: 1px solid grey;
+    border: 1px solid rgb(192, 192, 192);
     border-radius: 30px;
-    padding: 5px;
+    padding: 8px;
     margin: 7px;
     font-weight: 800;
-    width: 19em;
+    width: 21em;
     color: grey;
     font-size: 14px;
 }
@@ -80,7 +94,7 @@ h2 {
 }
 
 .separ {
-    width: 18em;
+    width: 20em;
 }
 
 .regist {
@@ -108,4 +122,41 @@ h2 {
 
 .form p a:hover {
     text-decoration: underline;
+}
+
+
+/* account */
+
+.account p {
+    font-weight: 900;
+    margin-top: 2em;
+}
+
+.account a {
+    all: unset;
+    display: flex;
+    justify-content: center;
+    border: 1px solid rgb(192, 192, 192);
+    border-radius: 30px;
+    font-weight: 800;
+    color: rgb(29, 155, 240);
+    font-size: 14px;
+    padding: 10px;
+    margin-left: 7px;
+    letter-spacing: 1px;
+    width: 20em;
+}
+
+.account a:hover {
+    background-color: rgb(218, 252, 249);
+}
+
+.links a {
+    all: unset;
+    padding-right: 20px;
+    font-size: 0.8em;
+}
+
+.links p {
+    font-size: 0.8em;
 }
