@@ -9,6 +9,10 @@ body {
     font-family: 'Noto Sans', sans-serif;
 }
 
+a:hover {
+    cursor: pointer;
+}
+
 
 /* modelos flex box */
 
@@ -40,4 +44,68 @@ h1 {
 h2 {
     margin: 0;
     font-size: 2em;
+}
+
+
+/* form */
+
+.google,
+.apple,
+.regist {
+    all: unset;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid grey;
+    border-radius: 30px;
+    padding: 5px;
+    margin: 7px;
+    font-weight: 800;
+    width: 19em;
+    color: grey;
+    font-size: 14px;
+}
+
+.google:hover {
+    background-color: rgb(240, 252, 251);
+}
+
+.apple {
+    color: black;
+}
+
+.apple:hover {
+    background-color: rgb(233, 231, 231);
+}
+
+.separ {
+    width: 18em;
+}
+
+.regist {
+    background-color: rgb(29, 155, 240);
+    padding: 13px 5px;
+    color: white;
+}
+
+.regist:hover {
+    background-color: rgb(24, 143, 223);
+}
+
+.form p {
+    font-size: 0.7em;
+    margin-left: 10px;
+    line-height: 11px;
+    margin-top: 0;
+    width: 27em;
+}
+
+.form p a {
+    all: unset;
+    color: rgb(29, 155, 240);
+}
+
+.form p a:hover {
+    text-decoration: underline;
 }
