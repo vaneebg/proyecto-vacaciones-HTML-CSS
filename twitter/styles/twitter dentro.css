@@ -50,14 +50,20 @@ main {
     padding: 5px;
 }
 
+.stickyy {
+    display: flex;
+    flex-direction: column;
+    position: sticky;
+    top: 0px;
+}
+
 .stickyizq {
     display: flex;
     flex-direction: column;
     flex-basis: 70em;
     padding-left: 35px;
-    padding-top: 20px;
-    position: sticky;
-    top: 40px;
+    position: relative;
+    bottom: 60px;
 }
 
 .maincontent {
