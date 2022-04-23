@@ -26,11 +26,17 @@ main {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    align-items: center;
+    padding: 0 26px;
+    position: sticky;
+    top: 0;
+    background-color: rgba(255, 255, 255, 0.8);
+    backdrop-filter: blur(5px);
 }
 
 .stickyarriba a {
     display: flex;
-    flex-basis: 19em;
+    flex-basis: 17em;
 }
 
 .mainall {
@@ -63,7 +69,7 @@ main {
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    flex-basis: 42em;
+    flex-basis: 43em;
 }
 
 .image {
@@ -111,7 +117,7 @@ main {
     display: flex;
     flex-direction: row;
     align-items: center;
-    flex-basis: 22em;
+    flex-basis: 24em;
 }
 
 .notice {
