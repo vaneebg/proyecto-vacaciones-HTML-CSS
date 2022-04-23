@@ -1,6 +1,5 @@
 * {
     border: 1px solid black;
-    cursor: pointer;
 }
 
 
@@ -12,7 +11,9 @@ body {
     margin: 0;
 }
 
-body a {}
+body a:hover {
+    cursor: pointer;
+}
 
 
 /* flexboxes */
@@ -39,6 +40,7 @@ main {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    align-items: center;
 }
 
 .image {
@@ -65,6 +67,7 @@ main {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    align-items: center;
 }
 
 .coments {
@@ -148,4 +151,65 @@ main {
 
 #twitt:hover {
     background-color: rgb(19, 124, 194);
+}
+
+
+/* contenido principal */
+
+.inicio p {
+    font-size: 1.2em;
+    font-weight: 900;
+}
+
+.inicio img {
+    height: 1.5em;
+    width: 1.5em;
+}
+
+.image textarea {
+    all: unset;
+    font-size: 1.3em;
+}
+
+.icons {
+    margin-left: 50px;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.icons img {
+    height: 1.2em;
+}
+
+.mix a {
+    all: unset;
+    display: flex;
+    align-items: center;
+    background-color: rgb(24, 143, 223);
+    color: white;
+    border-radius: 30px;
+    padding: 10px 20px;
+    font-weight: 600;
+}
+
+.publis img {
+    height: 3em;
+}
+
+.titlepubl p a {
+    all: unset;
+    font-weight: 600;
+}
+
+.titlepubl p a:hover {
+    text-decoration: underline;
+}
+
+.titlepubl a img {
+    height: 1em;
+}
+
+.coments img {
+    height: 1.5em;
 }
