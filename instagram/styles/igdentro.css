@@ -69,6 +69,7 @@ main {
 .afterpubli {
     display: flex;
     justify-content: space-between;
+    align-items: baseline;
 }
 
 .twobefore {
