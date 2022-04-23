@@ -26,6 +26,8 @@ En lo referente a las 2 páginas que tiene cada red social:
     En lo referente al **contenido**, es un bloque formado por la foto y el nombre de la persona en cuestión (el nombre es un enlace que te llevaría a su perfil), y a la derecha un icono formado por 3 puntos que te dirigiría a las opciones.
     Abajo tendríamos el icono de comentario, me gusta y guardado. El único implementado con funcionalidad es el comentario, que nos dirige al textarea de abajo para escribir. Finalmente está el **botón de publicar** que se trata de un enlace que redirigiría a la web de nuevo con el comentario hecho.
     **La barra inferior** también sticky al igual que la superior, tiene las imágenes en forma de enlace. La única con funcionalidad es la imagen de Home, que nos llevaría a la parte superior de la página de nuevo.
+    
+        - **_Twitter_**: dos partes: derecha formada por una imagen, izquierda formada por diferentes enlaces con forma de botón. Todos enlazarían a diferentes páginas pero el único al que le di funcionalidad es iniciar sesión que nos llevaría a la página principal de twitter. Todos los botones tienen diferentes hover al igual que la página original de Twitter.
 
 ---
 ## Herramientas usadas en el proyecto ####
@@ -51,11 +53,15 @@ Para desplegar este proyecto, lo primero que debes hacer es clonarte el reposito
 * **IG DENTRO:**
 ![foto](/instagram/assets/IGDENTROVISTAPREVIA.png)
 
+
+* **INDEX TWITTER:**
+![foto](/twitter/VISTAPREVIA%20INICIO%20TWITTER.png)
+
 ---
 
 ## Aplicaciones posteriores ####
 Adaptar el diseño responsive.
-Añadir más funcionalidad con javascript, por ejemplo el carrusel de imágenes del index.
+Añadir más funcionalidad con javascript, por ejemplo el carrusel de imágenes del index IG.
 
 ## Autor ##
 Este proyecto fue desarrollado por [Vanesa Beltrán Guillén](https://github.com/vaneebg)
