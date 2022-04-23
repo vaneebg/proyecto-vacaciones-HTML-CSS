@@ -1,6 +1,18 @@
 * {
     border: 1px solid black;
+    cursor: pointer;
 }
+
+
+/* fonts */
+
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@100;300;700&display=swap');
+body {
+    font-family: 'Noto Sans', sans-serif;
+    margin: 0;
+}
+
+body a {}
 
 
 /* flexboxes */
@@ -12,11 +24,15 @@ main {
 .stickyizq {
     display: flex;
     flex-direction: column;
+    flex-basis: 73em;
+    padding-left: 35px;
+    padding-top: 20px;
 }
 
 .maincontent {
     display: flex;
     flex-direction: column;
+    flex-basis: 150em;
 }
 
 .inicio {
@@ -86,4 +102,50 @@ main {
     display: flex;
     flex-wrap: wrap;
     align-items: baseline;
+}
+
+
+/* stickyizquierda */
+
+#twittericon {
+    height: 1.4em;
+    width: 1.7em;
+    margin: 0;
+    padding: 0;
+    border-radius: 100px;
+}
+
+.stickyizq img {
+    margin-right: 20px;
+}
+
+.twittericon a {
+    width: 0.3em;
+}
+
+.stickyizq a {
+    all: unset;
+    display: flex;
+    align-items: center;
+    font-size: 1.3em;
+    padding: 14px;
+    border-radius: 30px;
+    width: fit-content;
+}
+
+.stickyizq a:hover {
+    background-color: rgb(230, 225, 225);
+}
+
+#twitt {
+    justify-content: center;
+    background-color: rgb(24, 143, 223);
+    border-radius: 30px;
+    color: white;
+    font-weight: 600;
+    width: 10em;
+}
+
+#twitt:hover {
+    background-color: rgb(19, 124, 194);
 }
