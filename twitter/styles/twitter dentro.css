@@ -1,0 +1,89 @@
+* {
+    border: 1px solid black;
+}
+
+
+/* flexboxes */
+
+main {
+    display: flex;
+}
+
+.stickyizq {
+    display: flex;
+    flex-direction: column;
+}
+
+.maincontent {
+    display: flex;
+    flex-direction: column;
+}
+
+.inicio {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.image {
+    display: flex;
+    align-items: center;
+}
+
+.mix {
+    display: flex;
+    justify-content: space-around;
+    gap: 16em;
+}
+
+.publis {
+    display: flex;
+}
+
+.title {
+    display: flex;
+    flex-direction: column;
+}
+
+.titlepubl {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.coments {
+    display: flex;
+    justify-content: space-around;
+}
+
+.noticesderch {
+    display: flex;
+    flex-direction: column;
+}
+
+.search {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.notice {
+    display: flex;
+}
+
+.follow {
+    display: flex;
+    flex-direction: column;
+}
+
+.followw {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.copy {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: baseline;
+}
