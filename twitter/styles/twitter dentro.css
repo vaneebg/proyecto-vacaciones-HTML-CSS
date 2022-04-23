@@ -77,7 +77,7 @@ main {
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    flex-basis: 43em;
+    flex-basis: 42em;
 }
 
 .image {
@@ -192,6 +192,7 @@ main {
     font-weight: 600;
     width: 11em;
     font-size: 1em;
+    margin-top: 4px;
 }
 
 #twitt:hover {
@@ -227,7 +228,7 @@ main {
 .icons a {
     all: unset;
     border-radius: 100px;
-    padding: 11px;
+    padding: 7px;
 }
 
 .icons a:hover {

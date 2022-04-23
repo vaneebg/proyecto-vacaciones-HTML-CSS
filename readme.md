@@ -4,7 +4,7 @@
 ---
 
 ## Descripción ##
-### Ha consistido en realizar la réplica de una de las dos redes sociales. Primeramente la sección inicial que corresponde al login, y después al hacer click sobre inicio de sesión, nos llevará a una nueva página que sería una réplica de la web principal de estas redes sociales.
+### Ha consistido en realizar la réplica de una de las dos redes sociales. En mi caso he optado por hacer ambas ya que cada una tenía sus complicaciones diferentes. Primeramente, está la sección inicial que corresponde al login, y después al hacer click sobre inicio de sesión, nos llevará a una nueva página que sería una réplica de la web principal de estas redes sociales.
 ---
 
 ## Partes de las que consta el proyecto ##
@@ -24,7 +24,7 @@ En lo referente a las 2 páginas que tiene cada red social:
     
     ---
 
-- **Ig dentro/twitter dentro** : Formada por las publicaciones, varios botones para redigirir a las diferentes cuentas, opciones, etc.
+- **Ig/twitter dentro** : Formada por las publicaciones, varios botones para redigirir a las diferentes cuentas, opciones, etc.
 
     - **_IG_**: En **la barra superior** se encuentran tres enlaces, los de las esquinas deben redirigir a la app de fotos y de mensajes directos (no implementadas), mientras que el título de Instagram te dirige de nuevo a la página de index. 
     Después encontramos otra **barra con las stories**, que posee un scroll que no se muestra para que solamente con el desplazamiento táctil hacia la derecha vayas explorando. La segunda storie es un enlace de prueba que te llevaría al perfil de esa persona en concreto. El resto son imágenes sin funcionalidad.
@@ -33,7 +33,7 @@ En lo referente a las 2 páginas que tiene cada red social:
     **La barra inferior** también sticky al igual que la superior, tiene las imágenes en forma de enlace. La única con funcionalidad es la imagen de Home, que nos llevaría a la parte superior de la página de nuevo.
     - **_Twitter_**: 2 filas y 3 columnas. La **primera fila** es un sticky con efecto blur para que conforme vayas bajando por la web, todo lo que entre en la barra se vea difuminado. Consta del título Inicio y una barra de búsqueda a mano derecha. 
     La **segunda** es en sí todo el contenido, entendiendo tanto la barra izq sticky como las publicaciones principales y el lateral izq de noticias y seguimiento.
-    Dentro de ésta, **primera columna** se trata de la barra sticky que tendremos disponible siempre independientemente de cuánto bajemos la página. Consta de varios enlaces, Home, Explorar, Notificaciones, Mensajes,etc., todos con su hover correspondiente (no tienen funcionalidad).
+    Dentro de ésta, **primera columna** se trata de la barra sticky que tendremos disponible siempre independientemente de cuánto bajemos la página. Consta de varios enlaces, entre ellos el icono de Twitter te volvería a llevar al index del mismo, además de Home, Explorar, Notificaciones, Mensajes,etc., todos con su hover correspondiente (no tienen funcionalidad).
     La **segunda** son, por un lado, un textarea junto a tu perfil para que publiques un comentario, y abajo, las publicaciones como tal.
     Todos los iconos tanto de tu propia publicación como de las otras, (me gusta, retwittear,etc), son links (sin funcionalidad) y tienen su hover.
     Por último, la **tercera columna** es un apartado de noticias, cada una rellenada con algo de texto y una imagen. Cada una tiene hover, al igual que los seguimientos.
