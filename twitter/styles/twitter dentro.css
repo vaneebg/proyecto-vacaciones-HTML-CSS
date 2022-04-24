@@ -6,7 +6,8 @@ body {
     margin: 0;
 }
 
-body a:hover {
+body a:hover,
+#seguir:hover {
     cursor: pointer;
 }
 
